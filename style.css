@@ -1,0 +1,38 @@
+body {
+    background-color: grey;
+    margin: 30px;
+}
+
+.Box {
+    box-sizing: border-box;
+    display: block;
+    background-color: white;
+    margin: 1%;
+    width: 150px;
+    height: 345px;
+    padding: 5px;
+}
+
+.RedBox {
+    display: block;
+    background-color: red;
+    border: 15px solid darkred;
+    padding: 40px;
+    margin-bottom: 5px;
+}
+
+.YellowBox {
+    display: block;
+    background-color: yellow;
+    border: 15px solid darkgoldenrod;
+    padding: 40px;
+    margin-bottom: 5px;
+}
+
+.GreenBox {
+    display: block;
+    background-color: green;
+    border: 15px solid darkgreen;
+    padding: 40px;
+    margin-bottom: 5px;
+}
