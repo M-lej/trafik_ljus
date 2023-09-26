@@ -5,7 +5,6 @@ body {
 
 .Box {
     box-sizing: border-box;
-    display: block;
     background-color: white;
     margin: 1%;
     width: 150px;
@@ -14,25 +13,53 @@ body {
 }
 
 .RedBox {
-    display: block;
+    box-sizing: border-box;
     background-color: red;
     border: 15px solid darkred;
-    padding: 40px;
+    height: 108px;
+    width: 140px;
     margin-bottom: 5px;
 }
 
 .YellowBox {
+    box-sizing: border-box;
     display: block;
     background-color: yellow;
     border: 15px solid darkgoldenrod;
-    padding: 40px;
+    height: 108px;
+    width: 140px;
     margin-bottom: 5px;
 }
 
 .GreenBox {
+    box-sizing: border-box;
     display: block;
     background-color: green;
     border: 15px solid darkgreen;
-    padding: 40px;
+    height: 108px;
+    width: 140px;
     margin-bottom: 5px;
+}
+
+.InnerRed {
+    box-sizing: content-box;
+    background-color: lightpink;
+    height: 50%;
+    width: 100%;
+    margin-top: 39px;
+}
+
+.InnerYellow {
+   background-color: lightyellow;
+   height: 50%;
+   width: 50%;
+   margin-left: 55px;
+   margin-top: 39px;
+}
+
+.InnerGreen {
+  background-color: lightgreen;
+  height: 50%;
+  width: 50%;
+  margin-top: 39px;
 }
